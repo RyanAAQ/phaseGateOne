@@ -11,10 +11,10 @@ public class MiniParkingLot{
     public static int [] parking(int slot){
     int[] slots = new int[20];
     
-    for (int i = 0; i < 20; i++) {
-    if (slots[i] == 0) {
-    slots[i] = 1;
-    System.out.println("Car parked successfully at slot " + (i + 1));
+    for (int slote = 0; slote < 20; slote++) {
+    if (slots[slote] == 0) {
+    slots[slote] = 1;
+    System.out.println("Car parked successfully at slot " + (slote + 1));
     break;
         }
     }
