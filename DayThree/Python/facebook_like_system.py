@@ -16,7 +16,3 @@ def likes(names):
     else:
         return f"{names[0]}, {names[1]} and {n - 2} others like this"
 
-names = {"peter", "jacob"}
-random = likes(names)
-print(random)
-
