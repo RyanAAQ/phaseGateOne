@@ -19,7 +19,7 @@ public static int[] duplicates(int[] numbers) {
 }
 
 public static int [] sorted(int [] numbers){  
-    int minimum = Integer.MAX_VALUE;
+    int minimum = 100000;
     numbers[0] = minimum;
     
     for(int number : numbers){
@@ -28,7 +28,7 @@ public static int [] sorted(int [] numbers){
         }
     }
     return minimum;
-    int maximum = Integer.MIN_VALUE;
+    int maximum = 0;
     numbers[0] = maximum;
     
     for(int number : numbers){
