@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class PartTwo{
-public static int[] spliceOne(int[] numbers) {
+public static int[] duplicates(int[] numbers) {
 
     int[] newArray = new int[numbers.length - 1];
     
